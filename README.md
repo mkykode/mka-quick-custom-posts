@@ -24,7 +24,7 @@ Define the options.
 	'query_var'       => true,
 	'show_ui'         => true,
 	'show_in_menu'    => true,
-	'taxonomies'      => array( 'category' , 'post_tag'), // Add category andtags capability
+	'taxonomies'      => array( 'category' , 'post_tag'),
 	'rewrite'         => $rewrite,
 	'supports'        => array(
 		'title',
