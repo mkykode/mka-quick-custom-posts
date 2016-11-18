@@ -42,7 +42,7 @@ Use make function to create the custom post type (handle, singular name, plural 
 `$custom_post_1->make( 'cpt', 'CPT', 'CPTs', $settings_custom_post_1 );`
 
 
-Add your new cusotm post type to the main loop.
+Add your new custom post type to the main loop.
 
 ```$add_to_category_page = new DisplayInCategoryPage( array(
 	'nav_menu_item',
