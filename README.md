@@ -6,17 +6,15 @@
 Download to plugins folder and activate.
 
 In the quick_custom_posts function:
-
 Define your textdomain in the $textdomain variable.
 Define the options.
 
-Define the rewrite
-`$rewrite                = array(
+```$rewrite                = array(
 	'slug'       => 'cpt',
 	'with_front' => true,
 	'pages'      => true,
-);
-$settings_custom_post_1 = array(
+);```
+```$settings_custom_post_1 = array(
 	'menu_icon'       => 'dashicons-building',
 	'public'          => true,
 	'has_archive'     => true,
@@ -35,7 +33,7 @@ $settings_custom_post_1 = array(
 		'genesis-layouts',
 		'genesis-cpt-archives-settings',
 	),
-);`
+);```
 
 Use make function to create the custom post type (handle, singular name, plural name)
 
@@ -44,12 +42,12 @@ Use make function to create the custom post type (handle, singular name, plural 
 
 Add your new cusotm post type to the main loop.
 
-`$add_to_category_page = new DisplayInCategoryPage( array(
+```$add_to_category_page = new DisplayInCategoryPage( array(
 	'nav_menu_item',
 	'post',
 	'cpt',
 	'page'
-) );`
+) );```
 
 
 
