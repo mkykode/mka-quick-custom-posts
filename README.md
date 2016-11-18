@@ -14,6 +14,8 @@ Define the options.
 	'with_front' => true,
 	'pages'      => true,
 );```
+
+
 ```$settings_custom_post_1 = array(
 	'menu_icon'       => 'dashicons-building',
 	'public'          => true,
