@@ -37,7 +37,7 @@ Define the options.
 	),
 );```
 
-Use make function to create the custom post type (handle, singular name, plural name)
+Use make function to create the custom post type (handle, singular name, plural name).
 
 `$custom_post_1->make( 'cpt', 'CPT', 'CPTs', $settings_custom_post_1 );`
 
